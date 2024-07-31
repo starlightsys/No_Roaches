@@ -10,10 +10,12 @@
   },
   {
     "type": "MONSTER_BLACKLIST",
+    "whitelist": false,
     "categories": ["GROUP_ROACH", "GROUP_PLAGUE_ROACH"]
   },
   {
     "type": "ITEM_BLACKLIST",
+    "whitelist": false,
     "categories": ["GROUP_EGG_ROACH", "GROUP_EGG_ROACH_PLAGUE"]
   },
   {
