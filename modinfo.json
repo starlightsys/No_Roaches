@@ -1,0 +1,24 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "No_Roaches",
+    "name": "No Roaches",
+    "authors": ["starlightsys"],
+    "description": "This mod blacklists all cockroach monsters, their eggs and dirt. No more yucky basements that make you lose your appetite!",
+    "category": "monster_exclude",
+    "dependencies": ["dda"]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "categories": ["GROUP_ROACH", "GROUP_PLAGUE_ROACH"]
+  },
+  {
+    "type": "ITEM_BLACKLIST",
+    "categories": ["GROUP_EGG_ROACH", "GROUP_EGG_ROACH_PLAGUE"]
+  },
+  {
+    "type": "ITEM_BLACKLIST",
+    "whitelist": false,
+    "items": ["feces_roach"]
+  }
+]
