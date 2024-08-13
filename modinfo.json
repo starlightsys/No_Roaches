@@ -17,13 +17,11 @@
       "mon_skittering_plague",
       "mon_plague_vector",
       "mon_plague_nymph"
-    ],
-    "categories": ["GROUP_ROACH", "GROUP_PLAGUE_ROACH"]
+    ]
   },
   {
     "type": "ITEM_BLACKLIST",
     "whitelist": false,
-    "categories": ["GROUP_EGG_ROACH", "GROUP_EGG_ROACH_PLAGUE"],
     "items": ["egg_roach", "egg_roach_plague", "feces_roach"]
   }
 ]
